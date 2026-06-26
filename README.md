@@ -210,11 +210,3 @@ npm run deploy
 ```
 
 This builds the app and uploads the build output and Functions to Cloudflare Pages in one step.
-
----
-
-<div align="center">
-
-Made by [Eudaeon](https://github.com/Eudaeon)
-
-</div>
