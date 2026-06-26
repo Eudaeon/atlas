@@ -1,0 +1,20 @@
+# Security headers for the Cloudflare Pages (web) build. Vite copies this file
+# from public/ to the dist/ root, where Pages applies it to every response.
+# The Electron build sets an equivalent Content-Security-Policy in
+# electron/static.js — keep the two in sync.
+#
+# CSP: scripts and the document base are locked to the app's own origin (the
+# bundle uses no eval). Styles allow inline (Tailwind/Recharts/MapLibre inject
+# them) plus the Google Fonts stylesheet; fonts, images and connections allow
+# the https resources the app legitimately loads — the CARTO basemap tiles,
+# Google Fonts, and MapLibre's blob worker. Enrichment and share calls are
+# same-origin /api/*, so connect-src 'self' covers them. frame-ancestors/
+# X-Frame-Options block clickjacking; the app is never meant to be framed.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; worker-src 'self' blob:; connect-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Cross-Origin-Opener-Policy: same-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains

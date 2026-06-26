@@ -1,0 +1,557 @@
+[
+  {
+    "id": "a1f0c9e2-0001-4a10-9b21-0e1a2b3c4d01",
+    "createdDateTime": "2025-09-15T08:14:03Z",
+    "userDisplayName": "Alice Johnson",
+    "userPrincipalName": "alice@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "8.8.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "ALICE-LT",
+      "deviceId": "d10a1b2c-1111-4aaa-9001-aaaaaaaaaaaa",
+      "operatingSystem": "Windows 10",
+      "browser": "Edge 124.0"
+    }
+  },
+  {
+    "id": "a1f0c9e2-0002-4a10-9b21-0e1a2b3c4d02",
+    "createdDateTime": "2025-09-15T09:02:41Z",
+    "userDisplayName": "Alice Johnson",
+    "userPrincipalName": "alice@contoso.com",
+    "appDisplayName": "Microsoft Teams",
+    "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+    "ipAddress": "8.8.8.8",
+    "clientAppUsed": "Mobile Apps and Desktop clients",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "ALICE-LT",
+      "operatingSystem": "Windows 10"
+    }
+  },
+  {
+    "id": "a1f0c9e2-0003-4a10-9b21-0e1a2b3c4d03",
+    "createdDateTime": "2025-09-15T13:45:10Z",
+    "userDisplayName": "Alice Johnson",
+    "userPrincipalName": "alice@contoso.com",
+    "appDisplayName": "Azure Portal",
+    "appId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "ipAddress": "8.8.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "ALICE-LT",
+      "operatingSystem": "Windows 10",
+      "browser": "Edge 124.0"
+    }
+  },
+  {
+    "id": "a1f0c9e2-0004-4a10-9b21-0e1a2b3c4d04",
+    "createdDateTime": "2025-09-16T08:30:55Z",
+    "userDisplayName": "Alice Johnson",
+    "userPrincipalName": "alice@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "8.8.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "ALICE-LT",
+      "operatingSystem": "Windows 10",
+      "browser": "Edge 124.0"
+    }
+  },
+  {
+    "id": "b2e1d0f3-0005-4b20-8c32-1f2b3c4d5e05",
+    "createdDateTime": "2025-09-15T07:50:18Z",
+    "userDisplayName": "Bob Smith",
+    "userPrincipalName": "bob@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "80.67.169.12",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "bob-mbp",
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.4"
+    }
+  },
+  {
+    "id": "b2e1d0f3-0006-4b20-8c32-1f2b3c4d5e06",
+    "createdDateTime": "2025-09-15T16:20:44Z",
+    "userDisplayName": "Bob Smith",
+    "userPrincipalName": "bob@contoso.com",
+    "appDisplayName": "Microsoft Teams",
+    "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+    "ipAddress": "80.67.169.12",
+    "clientAppUsed": "Mobile Apps and Desktop clients",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Ios"
+    }
+  },
+  {
+    "id": "b2e1d0f3-0007-4b20-8c32-1f2b3c4d5e07",
+    "createdDateTime": "2025-09-16T09:10:02Z",
+    "userDisplayName": "Bob Smith",
+    "userPrincipalName": "bob@contoso.com",
+    "appDisplayName": "OfficeHome",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "80.67.169.12",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "MacOs",
+      "browser": "Safari 17.4"
+    }
+  },
+  {
+    "id": "c3d2e1f4-0008-4c30-7d43-2a3b4c5d6e08",
+    "createdDateTime": "2025-09-15T10:05:33Z",
+    "userDisplayName": "David Brown",
+    "userPrincipalName": "dave@contoso.com",
+    "appDisplayName": "Azure Portal",
+    "appId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "ipAddress": "84.200.69.80",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "DAVE-DESK",
+      "operatingSystem": "Windows 11",
+      "browser": "Chrome 123.0"
+    }
+  },
+  {
+    "id": "c3d2e1f4-0009-4c30-7d43-2a3b4c5d6e09",
+    "createdDateTime": "2025-09-15T10:40:12Z",
+    "userDisplayName": "David Brown",
+    "userPrincipalName": "dave@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "84.200.69.80",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "DAVE-DESK",
+      "operatingSystem": "Windows 11",
+      "browser": "Chrome 123.0"
+    }
+  },
+  {
+    "id": "d4e3f2a5-0010-4d40-6e54-3b4c5d6e7f10",
+    "createdDateTime": "2025-09-15T23:30:27Z",
+    "userDisplayName": "Grace Lee",
+    "userPrincipalName": "grace@contoso.com",
+    "appDisplayName": "Microsoft Teams",
+    "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+    "ipAddress": "168.126.63.1",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "GRACE-PC",
+      "operatingSystem": "Windows 10",
+      "browser": "Edge 124.0"
+    }
+  },
+  {
+    "id": "d4e3f2a5-0011-4d40-6e54-3b4c5d6e7f11",
+    "createdDateTime": "2025-09-16T00:15:49Z",
+    "userDisplayName": "Grace Lee",
+    "userPrincipalName": "grace@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "168.126.63.1",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "GRACE-PC",
+      "operatingSystem": "Windows 10",
+      "browser": "Edge 124.0"
+    }
+  },
+  {
+    "id": "e5f4a3b6-0012-4e50-5f65-4c5d6e7f8a12",
+    "createdDateTime": "2025-09-15T11:00:05Z",
+    "userDisplayName": "Carol Martinez",
+    "userPrincipalName": "carol@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "8.8.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "displayName": "CAROL-LT",
+      "operatingSystem": "Windows 10",
+      "browser": "Chrome 124.0"
+    }
+  },
+  {
+    "id": "e5f4a3b6-0013-4e50-5f65-4c5d6e7f8a13",
+    "createdDateTime": "2025-09-15T11:50:31Z",
+    "userDisplayName": "Carol Martinez",
+    "userPrincipalName": "carol@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "77.88.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Linux",
+      "browser": "Chrome 120.0"
+    }
+  },
+  {
+    "id": "e5f4a3b6-0014-4e50-5f65-4c5d6e7f8a14",
+    "createdDateTime": "2025-09-15T12:30:14Z",
+    "userDisplayName": "Carol Martinez",
+    "userPrincipalName": "carol@contoso.com",
+    "appDisplayName": "Azure Portal",
+    "appId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "ipAddress": "77.88.8.8",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Linux",
+      "browser": "Chrome 120.0"
+    }
+  },
+  {
+    "id": "f6a5b4c7-0015-4f60-4a76-5d6e7f8a9b15",
+    "createdDateTime": "2025-09-15T14:00:48Z",
+    "userDisplayName": "Eve Davis",
+    "userPrincipalName": "eve@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; rv:115.0) Gecko/20100101 Firefox/115.0",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Windows 10",
+      "browser": "Firefox 115.0"
+    }
+  },
+  {
+    "id": "f6a5b4c7-0016-4f60-4a76-5d6e7f8a9b16",
+    "createdDateTime": "2025-09-15T14:20:09Z",
+    "userDisplayName": "Eve Davis",
+    "userPrincipalName": "eve@contoso.com",
+    "appDisplayName": "Microsoft Teams",
+    "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+    "ipAddress": "185.220.101.45",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; rv:115.0) Gecko/20100101 Firefox/115.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Windows 10",
+      "browser": "Firefox 115.0"
+    }
+  },
+  {
+    "id": "0a1b2c3d-0017-4a70-3b87-6e7f8a9b0c17",
+    "createdDateTime": "2025-09-15T02:11:20Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0018-4a70-3b87-6e7f8a9b0c18",
+    "createdDateTime": "2025-09-15T02:11:52Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0019-4a70-3b87-6e7f8a9b0c19",
+    "createdDateTime": "2025-09-15T02:12:31Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "POP3",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50053, "failureReason": "Account is locked because the user tried to sign in too many times with an incorrect user ID or password." }
+  },
+  {
+    "id": "0a1b2c3d-0020-4a70-3b87-6e7f8a9b0c20",
+    "createdDateTime": "2025-09-15T02:13:08Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0021-4a70-3b87-6e7f8a9b0c21",
+    "createdDateTime": "2025-09-15T02:13:45Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0022-4a70-3b87-6e7f8a9b0c22",
+    "createdDateTime": "2025-09-15T02:14:22Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "POP3",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0023-4a70-3b87-6e7f8a9b0c23",
+    "createdDateTime": "2025-09-15T02:15:01Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0024-4a70-3b87-6e7f8a9b0c24",
+    "createdDateTime": "2025-09-15T02:15:39Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0025-4a70-3b87-6e7f8a9b0c25",
+    "createdDateTime": "2025-09-15T02:16:18Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "POP3",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0026-4a70-3b87-6e7f8a9b0c26",
+    "createdDateTime": "2025-09-15T02:16:57Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0027-4a70-3b87-6e7f8a9b0c27",
+    "createdDateTime": "2025-09-15T02:17:36Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "Other clients",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "0a1b2c3d-0028-4a70-3b87-6e7f8a9b0c28",
+    "createdDateTime": "2025-09-15T02:18:14Z",
+    "userDisplayName": "Backup Service",
+    "userPrincipalName": "svc-backup@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "45.33.32.156",
+    "clientAppUsed": "IMAP4",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0029-4b80-2c98-7f8a9b0c1d29",
+    "createdDateTime": "2025-09-16T03:40:11Z",
+    "userDisplayName": "Administrator",
+    "userPrincipalName": "admin@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0030-4b80-2c98-7f8a9b0c1d30",
+    "createdDateTime": "2025-09-16T03:40:39Z",
+    "userDisplayName": "Alice Johnson",
+    "userPrincipalName": "alice@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0031-4b80-2c98-7f8a9b0c1d31",
+    "createdDateTime": "2025-09-16T03:41:08Z",
+    "userDisplayName": "Bob Smith",
+    "userPrincipalName": "bob@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0032-4b80-2c98-7f8a9b0c1d32",
+    "createdDateTime": "2025-09-16T03:41:37Z",
+    "userDisplayName": "Carol Martinez",
+    "userPrincipalName": "carol@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0033-4b80-2c98-7f8a9b0c1d33",
+    "createdDateTime": "2025-09-16T03:42:05Z",
+    "userDisplayName": "David Brown",
+    "userPrincipalName": "dave@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0034-4b80-2c98-7f8a9b0c1d34",
+    "createdDateTime": "2025-09-16T03:42:34Z",
+    "userDisplayName": "Frank Wilson",
+    "userPrincipalName": "frank@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "1b2c3d4e-0035-4b80-2c98-7f8a9b0c1d35",
+    "createdDateTime": "2025-09-16T03:43:02Z",
+    "userDisplayName": "Helen Clark",
+    "userPrincipalName": "helen@contoso.com",
+    "appDisplayName": "Microsoft Office 365 Portal",
+    "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+    "ipAddress": "91.240.118.222",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 50126, "failureReason": "Invalid username or password." }
+  },
+  {
+    "id": "2c3d4e5f-0036-4c90-1d09-8a9b0c1d2e36",
+    "createdDateTime": "2025-09-16T07:05:51Z",
+    "userDisplayName": "Administrator",
+    "userPrincipalName": "admin@contoso.com",
+    "appDisplayName": "Azure Portal",
+    "appId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "ipAddress": "104.28.42.17",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 53003, "failureReason": "Access has been blocked by Conditional Access policies. The access policy does not allow token issuance." }
+  },
+  {
+    "id": "2c3d4e5f-0037-4c90-1d09-8a9b0c1d2e37",
+    "createdDateTime": "2025-09-16T10:22:40Z",
+    "userDisplayName": "Frank Wilson",
+    "userPrincipalName": "frank@contoso.com",
+    "appDisplayName": "Microsoft Teams",
+    "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+    "ipAddress": "80.67.169.12",
+    "clientAppUsed": "Browser",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "authenticationRequirement": "multiFactorAuthentication",
+    "status": { "errorCode": 50074, "failureReason": "User did not pass the multi-factor authentication challenge." }
+  },
+  {
+    "id": "2c3d4e5f-0038-4c90-1d09-8a9b0c1d2e38",
+    "createdDateTime": "2025-09-16T11:48:12Z",
+    "userDisplayName": "Grace Lee",
+    "userPrincipalName": "grace@contoso.com",
+    "appDisplayName": "Office 365 Exchange Online",
+    "appId": "00000002-0000-0ff1-ce00-000000000000",
+    "ipAddress": "168.126.63.1",
+    "clientAppUsed": "Exchange ActiveSync",
+    "authenticationRequirement": "singleFactorAuthentication",
+    "status": { "errorCode": 0 },
+    "deviceDetail": {
+      "operatingSystem": "Android"
+    }
+  }
+]

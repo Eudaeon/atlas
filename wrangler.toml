@@ -1,0 +1,21 @@
+# Cloudflare Pages configuration. The SPA is built to `dist` (npm run build) and
+# the API lives in `functions/` (auto-routed by Pages). The Function binds the KV
+# namespace below as `SHARE_KV` to store share payloads.
+#
+# Because this wrangler.toml exists, Pages manages bindings *here* (the dashboard
+# binding UI is disabled for the project), so the namespace id must live in this
+# file. A KV namespace id is not a secret: it's only usable through a binding in
+# this account's authenticated Functions and has no public URL.
+#
+# Create the namespace once and paste its id below:
+#   npx wrangler kv namespace create SHARE_KV
+# For local dev, `npm run dev` reads this binding and simulates the
+# namespace locally, ignoring the id.
+
+name = "atlas"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-06-01"
+
+[[kv_namespaces]]
+binding = "SHARE_KV"
+id = "f5b46acbc02545e0900cbfc4178a4df6"

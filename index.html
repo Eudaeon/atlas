@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      Set the theme class before first paint so a dark-theme user never sees a
+      flash of the light :root palette while React mounts. Kept as an external,
+      same-origin script (not inline) so it satisfies the app's `script-src
+      'self'` CSP without 'unsafe-inline'; still parser-blocking, so it runs
+      before the body renders.
+    -->
+    <script src="/theme-init.js"></script>
+
+    <meta
+      name="description"
+      content="A browser tool to map and triage Microsoft sign-in logs by location, network, and risk. Source available at https://github.com/Eudaeon/atlas."
+    />
+    <meta name="author" content="Eudaeon" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Atlas" />
+    <meta property="og:title" content="Atlas" />
+    <meta
+      property="og:description"
+      content="A browser tool to map and triage Microsoft sign-in logs by location, network, and risk."
+    />
+    <meta property="og:image" content="/logo.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Atlas" />
+    <meta
+      name="twitter:description"
+      content="A browser tool to map and triage Microsoft sign-in logs by location, network, and risk."
+    />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atlas</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

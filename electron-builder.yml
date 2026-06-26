@@ -1,0 +1,36 @@
+# electron-builder config for the Atlas desktop app. `npm run electron:build`
+# prompts for the share origin, builds the web bundle (dist/), then packages it
+# with the Electron main process (electron/) into installers under release/. The
+# renderer is the same dist/ the web build deploys to Cloudflare — there is no
+# separate desktop bundle. Builds are run manually; there is no CI release.
+appId: dev.eudaeon.atlas
+productName: Atlas
+copyright: Copyright © Eudaeon
+
+directories:
+  output: release
+  buildResources: build
+
+# Everything the packaged app loads at runtime: the built SPA, the main process
+# and its preload/API handlers, and package.json (for the `main` entry).
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+
+# 512×512 source icon; electron-builder derives the per-platform formats.
+linux:
+  icon: public/logo.png
+  category: Utility
+  target:
+    - AppImage
+    - deb
+mac:
+  icon: public/logo.png
+  category: public.app-category.utilities
+  target:
+    - dmg
+win:
+  icon: public/logo.png
+  target:
+    - nsis
