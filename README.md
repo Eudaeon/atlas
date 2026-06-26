@@ -152,7 +152,7 @@ Use **Share** (or `S`) to copy a short link to the full dataset.
 | `U` |        Upload a sign-in log       |
 | `V` |        Cycle through views        |
 | `S` |         Copy a share link         |
-| `T` |     Toggle light/dark theme     |
+| `T` |      Toggle light/dark theme      |
 | `1` |    Toggle the Users panel (map)   |
 | `2` | Toggle the Categories panel (map) |
 | `3` |  Toggle the Timeline panel (map)  |
