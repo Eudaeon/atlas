@@ -1,0 +1,45 @@
+# Runs on every pull request and on main. npm run deploy adds nothing to this
+# beyond the wrangler upload, so a commit that passes here is one that deploys.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# A new push to a branch makes the run already going on it pointless.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# Nothing is granted by default, and the one job that runs the checks asks for
+# what it needs. A job added later starts with nothing rather than inheriting
+# the token this one reads with.
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # to check the repository out
+    steps:
+      # Nothing here writes to the repository, so the token is not left behind
+      # in .git/config for every later step and action to read.
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - run: npm ci
+
+      # Cheapest first, so a run that is going to fail says why sooner.
+      - run: npm run check
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build

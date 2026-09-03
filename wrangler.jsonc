@@ -1,0 +1,9 @@
+{
+  // `vite build` writes a fetch handler and a folder of files, which is what a
+  // Worker with assets is: the files are served straight off the edge, and
+  // anything that is not one of them goes to the handler.
+  "name": "atlas",
+  "main": "dist/server/server.js",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": "dist/client" },
+}
