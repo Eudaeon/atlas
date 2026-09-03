@@ -1,0 +1,26 @@
+{
+  "short_name": "Atlas",
+  "name": "Atlas",
+  "description": "A web application that reads Microsoft Entra sign-in and audit log exports and puts them on a map. Source code is available at https://github.com/Eudaeon/atlas",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 48x48 32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

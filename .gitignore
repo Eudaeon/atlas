@@ -1,0 +1,26 @@
+### Node ###
+# Dependencies
+node_modules/
+
+# Stray output from a redirected command
+*.log
+
+# Environment files
+.env
+.env.*
+
+### Vite ###
+# The build: the client bundle, and the fetch handler Wrangler serves
+dist/
+
+# Scratch from the TanStack Start plugin
+.tanstack/
+
+### Wrangler ###
+# Local Workers state, and the secrets `wrangler dev` reads
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+### macOS ###
+.DS_Store
